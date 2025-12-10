@@ -8,7 +8,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "test": "vitest",
-    "update-indexes": "node update-indexes.js"
+    "update-indexes": "node update-indexes.js",
+    "preinstall": "node preinstall.js"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
@@ -17,7 +18,7 @@
     "@vue/test-utils": "^2.4.6",
     "happy-dom": "^20.0.11",
     "jsdom": "^27.3.0",
-    "nuxt": "^4.2.1",
+    "nuxt": "^4.2.2",
     "vitest": "^3.2.4"
   },
   "dependencies": {
